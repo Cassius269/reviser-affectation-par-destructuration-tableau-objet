@@ -47,11 +47,14 @@ for(const info in user) {
 };
 
 // affectation par décomposition d'un objet
-
 let options = {
-    title: "Menu",
-    width: 100,
-    height: 200
+    titre: "Menu",
+    largeur: 100,
+    hauteur: 200
   };
-
   
+  let {titre, largeur, hauteur} = options;
+  
+  alert(titre);  // Menu
+  alert(largeur);  // 100
+  alert(hauteur); // 200
